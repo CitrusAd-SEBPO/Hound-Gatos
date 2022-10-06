@@ -2,12 +2,25 @@
 /* Medium devices */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
 
+    /* POV */
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img {
+        max-width: 160px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img:nth-child(2) {
+        max-width: 70px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper h1 {
+        font-size: 28px;
+    }
+
     /* Bottom Hero */
-    .earth-animal .bottom-hero__content-wrapper{
+    .hound_gatos .bottom-hero__content-wrapper{
         min-height: 250px;
     }
     
-    .earth-animal .bottom-hero__content--img{
+    .hound_gatos .bottom-hero__content--img{
         top: -180px;
     }
     
@@ -16,17 +29,42 @@
 /* Tab devices */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    /* POV Section */
-    .citrus_earth_animal__pov--text h1 {
-        font-size: 30px;
+    /* POV */
+    .citrus_hound_gatos_carousel-item{
+        padding: 0 15px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img {
+        max-width: 100px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img:nth-child(2) {
+        max-width: 44px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper {
+        padding: 15px 0;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .citrus_hound_gatos_carousel-inner .pov1 .cta-box a {
+        margin: 0 10px;
     }
 
     /* Bottom Hero */
-    .earth-animal .bottom-hero__content-wrapper{
+    .hound_gatos .bottom-hero__content-wrapper{
         min-height: 230px;
     }
     
-    .earth-animal .bottom-hero__content--img{
+    .hound_gatos .bottom-hero__content--img{
         top: -128px;
         padding: 0;
     }
@@ -48,11 +86,11 @@
     }
 
     /* CTA Styles */
-    .earth-animal .cta-box {
+    .hound_gatos .cta-box {
         width: 100%;
     }
 
-    .earth-animal .cta-box a{
+    .hound_gatos .cta-box a{
         text-transform: capitalize;
         text-decoration: underline;
         color: #001952 !important;
@@ -60,134 +98,121 @@
         border: none !important;
     }
 
-    .earth-animal .cta-box a:hover{
+    .hound_gatos .cta-box a:hover{
         color: #001952;
         border: none;
     }
 
     /* POV section */
-    .citrus_earth_animal_carousel-item .custom-container {
+    .citrus_hound_gatos_carousel-item .custom-container {
         flex-wrap: wrap;
     }
 
-    .citrus_earth_animal_carousel-inner{
-        align-items: flex-start !important;
+    .citrus_hound_gatos_carousel-item__col .d-hide{
+        padding: 0 20px;
     }
 
-    .citrus_earth_animal_carousel-inner .pov1{
-        background-image: none;
-        background: #489399;
-    }
-    .citrus_earth_animal_carousel-inner .pov2{
-        background-image: none;
-        background: #001952;
-    }
-    .citrus_earth_animal_carousel-inner .pov3{
-        background-image: none;
-        background: #D58641;
-    }
-
-    .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov1-mob.jpg");
-    }
-    .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov2-mob.jpg");
-    }
-    .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov3-mob.jpg");
-    }
-
-    .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child .citrus_earth_animal__pov--shots{
-        opacity: 1;
-    }
-
-    .citrus_earth_animal_carousel-item__col{
+    .citrus_hound_gatos_carousel-item__col:nth-child(1),
+    .citrus_hound_gatos_carousel-item__col:nth-child(3) {
         width: 100%;
+        padding: 0;
     }
 
-    .citrus_earth_animal_carousel-item__col:first-child{
-        order: 2;
-        padding: 40px 15px;
-        min-height: 290px;
+    .citrus_hound_gatos_carousel-item__col:nth-child(2) {
+        width: 100%;
+        padding: 0;
     }
 
-    .citrus_earth_animal__pov--logo {
-        max-width: 130px;
-        margin: 0 auto;
+    .citrus_hound_gatos_carousel-inner .pov1 .citrus_hound_gatos_carousel-item__col:nth-child(2){
+        background-image: url("img/citrus-hound-gatos-pov1-bg-mob.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .citrus_hound_gatos_carousel-inner .pov2 .citrus_hound_gatos_carousel-item__col:nth-child(2){
+        background-image: url("img/citrus-hound-gatos-pov2-bg-mob.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .citrus_earth_animal__pov--shots{
-        max-width: 70%;
-    }
-
-    .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal__pov--shots img{
-
-    }
-
-    .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal__pov--shots{
-        margin: 0 auto;
-    }
-
-    .citrus_earth_animal__pov--text{
-        padding: 0 15px;
-    }
-
-    .citrus_earth_animal__pov--text h1{
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .citrus_earth_animal__pov--text p {
-        text-align: center;
-    }
-
-    .citrus_earth_animal_carousel-item__col .citrus_earth_animal__pov--cta a{
+    .citrus_hound_gatos_carousel-inner .pov1 .cta-box a {
+        width: auto;
+        margin: 0 10px;
         color: #fff !important;
     }
 
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img {
+        max-width: 120px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img:nth-child(2) {
+        max-width: 60px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-logo-wrapper img {
+        max-width: 160px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper {
+        padding: 0 20px 20px;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper h1{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .citrus_hound_gatos_carousel-item__col .item-text-wrapper p {
+        max-width: 280px;
+        min-height: 38px;
+        margin: 0 auto;
+    }
+
+
     /* Size section */
-    .earth-animal__sizes--content-wrapper{
+    .hound_gatos__sizes--content-wrapper{
         overflow-x: auto;
         width: 260%;
     }
 
-    .earth-animal__sizes--content .sizes__single-item{
+    .hound_gatos__sizes--content .sizes__single-item{
         width: 70%;
     }
 
     /* Variety proteins */
-    .earth-animal .variety-proteins__content--wrapper{
+    .hound_gatos .variety-proteins__content--wrapper{
         overflow-x: auto;
         width: 245%;
     }
 
-    .earth-animal .variety-proteins__single-item{
+    .hound_gatos .variety-proteins__single-item{
         width: 40%;
     }
 
 
     /* Bottom Hero */
-    .earth-animal .bottom-hero {
+    .hound_gatos .bottom-hero {
         margin: 50px 0 30px;
     }
 
-    .earth-animal .bottom-hero__bg{
+    .hound_gatos .bottom-hero__bg{
         background-image: none;
     }
 
-    .earth-animal .bottom-hero__content-wrapper{
+    .hound_gatos .bottom-hero__content-wrapper{
         flex-wrap: wrap;
     }
 
-    .earth-animal .bottom-hero__content-wrapper--col{
+    .hound_gatos .bottom-hero__content-wrapper--col{
         width: 100%;
     }
 
-    .earth-animal .bottom-hero__content-wrapper--col:first-child{
+    .hound_gatos .bottom-hero__content-wrapper--col:first-child{
         order: 2;
     }
 
-    .earth-animal .bottom-hero__content--text {
+    .hound_gatos .bottom-hero__content--text {
         padding: 40px 15px 30px;
     }
 
@@ -195,7 +220,7 @@
         color: #001952 !important;
     }
 
-    .earth-animal .bottom-hero__content--img{
+    .hound_gatos .bottom-hero__content--img{
         padding: 0;
         position: unset;
         display: flex;
