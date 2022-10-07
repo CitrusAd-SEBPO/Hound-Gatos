@@ -15,13 +15,13 @@
         font-size: 28px;
     }
 
-    /* Bottom Hero */
-    .hound_gatos .bottom-hero__content-wrapper{
-        min-height: 250px;
+    /* Product Carousel */
+    .citrus-hound_gatos__carousel--item__wrapper .item-wrapper--img{
+        max-width: 160px;
     }
-    
-    .hound_gatos .bottom-hero__content--img{
-        top: -180px;
+
+    .citrus-hound_gatos__tab .show-video iframe {
+        min-height: 285px;
     }
     
 }
@@ -59,15 +59,28 @@
         margin: 0 10px;
     }
 
-    /* Bottom Hero */
-    .hound_gatos .bottom-hero__content-wrapper{
-        min-height: 230px;
+    /* Product Carousel */
+    .citrus-hound_gatos__carousel--item__wrapper {
+        padding: 15px;
     }
-    
-    .hound_gatos .bottom-hero__content--img{
-        top: -128px;
-        padding: 0;
+
+    .citrus-hound_gatos__carousel--item__wrapper .item-wrapper--img{
+        max-width: 110px;
     }
+
+    .citrus-hound_gatos__carousel--item__wrapper p {
+        font-size: 16px;
+    }
+
+
+    .citrus-hound_gatos__carousel--item__wrapper{
+        min-height: 280px;
+    }
+
+    .citrus-hound_gatos__tab .show-video iframe {
+        min-height: 180px;
+    }
+
     
 }
 
@@ -169,62 +182,32 @@
         margin: 0 auto;
     }
 
-
-    /* Size section */
-    .hound_gatos__sizes--content-wrapper{
-        overflow-x: auto;
-        width: 260%;
-    }
-
-    .hound_gatos__sizes--content .sizes__single-item{
-        width: 70%;
-    }
-
-    /* Variety proteins */
-    .hound_gatos .variety-proteins__content--wrapper{
-        overflow-x: auto;
-        width: 245%;
-    }
-
-    .hound_gatos .variety-proteins__single-item{
-        width: 40%;
-    }
-
-
-    /* Bottom Hero */
-    .hound_gatos .bottom-hero {
-        margin: 50px 0 30px;
-    }
-
-    .hound_gatos .bottom-hero__bg{
-        background-image: none;
-    }
-
-    .hound_gatos .bottom-hero__content-wrapper{
+    /* Product Carousel */
+    .hound_gatos .citrus-hound_gatos__tab--wrapper {
         flex-wrap: wrap;
     }
 
-    .hound_gatos .bottom-hero__content-wrapper--col{
+    .citrus-hound_gatos__tab--tab-col{
         width: 100%;
-    }
-
-    .hound_gatos .bottom-hero__content-wrapper--col:first-child{
-        order: 2;
-    }
-
-    .hound_gatos .bottom-hero__content--text {
-        padding: 40px 15px 30px;
-    }
-
-    .bottom-hero__content--text .cta-box a{
-        color: #001952 !important;
-    }
-
-    .hound_gatos .bottom-hero__content--img{
         padding: 0;
-        position: unset;
-        display: flex;
     }
+
+    .citrus-hound_gatos__tab-content .splide__arrow--prev {
+        left: 0rem;
+    }
+
+    .citrus-hound_gatos__tab-content .splide__arrow--next {
+        right: 0rem;
+    }
+
+    .citrus-hound_gatos__carousel--item__wrapper{
+        min-height: 360px;
+    }
+
+    .citrus-hound_gatos__tab .show-video iframe {
+        min-height: 235px;
+    }
+
 
 
 }
