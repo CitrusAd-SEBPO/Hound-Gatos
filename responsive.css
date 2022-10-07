@@ -81,6 +81,20 @@
         min-height: 180px;
     }
 
+    /* Bottom Hero */
+    .hound_gatos .bottom-hero__content--text{
+        padding: 10px;
+    }
+    
+    .hound_gatos .bottom-hero__content--text h3{
+        font-size: 20px;
+    }
+    
+    .hound_gatos .bottom-hero__content--text p{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
     
 }
 
@@ -187,6 +201,14 @@
         flex-wrap: wrap;
     }
 
+    .citrus-hound_gatos__video-content .citrus-hound_gatos__video-content--frame{
+        order: 2;
+    }
+
+    .citrus-hound_gatos__tab--wrapper:last-child .citrus-hound_gatos__tab-content{
+        order: 2;
+    }
+
     .citrus-hound_gatos__tab--tab-col{
         width: 100%;
         padding: 0;
@@ -206,6 +228,20 @@
 
     .citrus-hound_gatos__tab .show-video iframe {
         min-height: 235px;
+    }
+
+
+    /* Bottom Hero */
+    .hound_gatos .bottom-hero__content{
+        flex-wrap: wrap;
+    }
+
+    .hound_gatos .bottom-hero__content--col{
+        width: 100%;
+    }
+
+    .hound_gatos .bottom-hero__content--col:first-child{
+        order: 2;
     }
 
 

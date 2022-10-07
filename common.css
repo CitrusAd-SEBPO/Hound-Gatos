@@ -60,8 +60,8 @@ body{
     font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #001952;
-    width: 211px;
-    margin: 0 20px;
+    width: 180px;
+    margin: 0 auto;
 }
 
 .hound_gatos .cta-box a:hover{
