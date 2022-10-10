@@ -1,6 +1,7 @@
 /* Video Popup */
 .citrus-hound_gatos__tab .citrus-hound_gatos__video-content--frame{
     position: relative;
+    width: 100%;
 }
 
 .citrus-hound_gatos__video-content--frame button{
@@ -49,12 +50,13 @@
     background: #e4425c;
     border: 1px solid #e4425c;
 }
-.citrus-hound_gatos__tab .show-video iframe{
+.citrus-hound_gatos__tab iframe{
     width: 100%;
     min-height: 370px;
+    display: flex;
 }
 
-.citrus-hound_gatos__tab .citrus-bg-sky .show-video iframe{
+.citrus-hound_gatos__tab .citrus-bg-sky iframe{
     min-height: 270px;
 }
 
